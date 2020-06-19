@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Platform</title>
+
+
+</head>
+
+<body>
+<h1>Welcome !!!</h1><br>
+<h1> A place to provide you various platforms !!! </h1>
+
+<br><br>
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getAllModal">View all platforms</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getModalById">View Platform by Id</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getModalByName">View Platform by Name</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add a new platform</button>
+
+<div class="modal fade" id="getAllModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form action="/platforms">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get Platform List</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+   
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="modal fade" id="getModalById" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form action="/platforms/pid" method="get">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get a unique Platform</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Id:</label>
+            <input type="text" class="form-control" id="id" name="id">
+          </div>
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+       
+        </form>
+</div>
+
+
+<div class="modal fade" id="getModalByName" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form action="/platforms/pname" method="get">
+  
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">View the Platforms</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Name:</label>
+            <input type="text" class="form-control" id="id" name="name">
+          </div>
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+       
+        </form>
+</div>
+
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form action="/platforms" method="post">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add a Platform</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Id:</label>
+            <input type="text" class="form-control" id="id" name="id">
+          </div>
+          
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Name:</label>
+            <input type="text" class="form-control" id="id" name="name">
+          </div>
+    
+    <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Language:</label>
+            <input type="text" class="form-control" id="id" name="language">
+          </div>
+    
+    <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Framework</label>
+            <input type="text" class="form-control" id="id" name="framework">
+          </div>
+    
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+       
+        </form>
+</div>
+
+
+
+ 
+ 
+
+</body>
+</html>
+</html>

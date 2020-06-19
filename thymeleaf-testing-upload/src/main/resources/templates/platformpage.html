@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html 
+      
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<link href="/webjars/bootstrap/4.3.1/css/bootstrap.css" rel="stylesheet" />
+<script type="text/javascript" src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="../static/main.js" th:src="@{/main.js}"></script>
+<meta charset="ISO-8859-1">
+<title>Platform</title>
+
+
+
+</head>
+</head>
+<body>
+
+
+<h2> List of Available Platforms</h2>
+<br><br>
+
+
+<table class="table table-stripped">
+<thead class="table table-dark">
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Language</th>
+<th>Framework</th>
+<th>Update </th>
+
+
+</tr>
+</thead>
+<tr th:each="platform:${platforms}">
+<td th:text="${platform.id}">Id</td>
+<td th:text="${platform.name}">Name</td>
+<td th:text="${platform.language}">Language</td>
+<td th:text="${platform.framework}">Framework</td>
+<td><a th:href="@{/platforms/pidone/(id=${platform.id})}" class="btn btn-warning">Edit</a></td>
+<td><a th:href="@{/delete/(id=${platform.id})}" class="btn btn-danger" id="deleteButton">Delete</a></td>
+
+</tr>
+</table>
+
+<br><br>
+<a href="/" class="btn btn-info" role="button">Home</a>
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <form th:action="@{/update}">
+
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Update the Platform</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Id:</label>
+            <input type="text" class="form-control" id="idEdit" name="id">
+          </div>
+          
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Platform Name:</label>
+            <input type="text" class="form-control" id="nameEdit" name="name">
+          </div>
+    
+    <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Language:</label>
+            <input type="text" class="form-control" id="languageEdit" name="language">
+          </div>
+    
+    <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Framework</label>
+            <input type="text" class="form-control" id="frameworkEdit" name="framework">
+          </div>
+    
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+       
+        </form>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteModal">
+
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Confirm Delete </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Do you really want to delete?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="btn btn-primary" id="delRef">Yes,Delete</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>

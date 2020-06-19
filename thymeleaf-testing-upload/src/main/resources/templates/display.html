@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Platform</title>
+</head>
+<body>
+<h2> Platform Details of Given Id</h2>
+
+<br><br>
+<table class="table table-stripped">
+<thead class="table table-dark">
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Language</th>
+<th>Framework</th>
+
+</tr>
+</thead>
+<tr>
+<td th:text="${platform.id}">Id</td>
+<td th:text="${platform.name}">Name</td>
+<td th:text="${platform.language}">Language</td>
+<td th:text="${platform.framework}">Framework</td>
+</tr>
+</table>
+<br><br>
+<a href="/" class="btn btn-info" role="button">Home</a>
+
+</body>
+</html>
