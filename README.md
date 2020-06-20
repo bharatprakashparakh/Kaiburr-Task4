@@ -57,6 +57,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/4.View%20By%20Id%20Click.PNG)
  
   The platform details of specified unique Id is displayed as a response.
+  
   Output
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/5.View%20By%20Id%20Result.PNG)
@@ -80,13 +81,15 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/8.View%20By%20name.PNG)
   
-  Get a list of Platform with mentioned name
+  Get a list of Platform with mentioned name.
+  
   Output
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/9.View%20by%20name%20result.PNG)
   
 
 * **Returns an error as response if platforms with given name is not present in database**
+
   Input
  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/10.Invalid%20name.PNG)
@@ -101,6 +104,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
 * **Add a new platform object in the database with the given details.**
   
   The Id, name, language, framework of the Platfrorm is provided in the form.
+  
   Input
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/12.Add%20new.PNG)
@@ -122,6 +126,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/14.Update.PNG)
   
   Fill the new details in the following form.
+  
   Input
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/15.Update%20details.PNG)
@@ -138,9 +143,11 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   Clicking on "Delete" button will prompt for "Yes Delete" or "Cancel" the delete operation.
   
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/17.Delete.PNG)
   
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/18.Delete%20Result.PNG)
   
 * **Platfrom objects stored in Mongo DataBase  **
