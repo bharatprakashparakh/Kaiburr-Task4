@@ -41,10 +41,10 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/2.View%20All%20Click.PNG)
 
   
-  Clicking on "continue" button will result in following.
+    **Click on Home button will redirect the server to HOME page.**
+    Clicking on "continue" button will result in following.
   
-  
-  **Click on Home button will redirect the server to HOME page.**
+
   
   Output
   
