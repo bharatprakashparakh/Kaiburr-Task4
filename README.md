@@ -32,6 +32,7 @@ The project is about creating Web Interface(UI) in Java using Spring MVC and Thy
 
 ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/1.Home%20Page.PNG)
 
+
 * **View all available platforms present in the database.**
 
 For this operation,click on button "View all platforms".It will prompt for "continue" or "close" option.
