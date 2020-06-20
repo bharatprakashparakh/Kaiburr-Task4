@@ -41,20 +41,22 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/2.View%20All%20Click.PNG)
 
   
-    **Click on Home button will redirect the server to HOME page.**
-    Clicking on "continue" button will result in following.
+   * **Clicking the Home button will redirect the server to HOME page.**
+      Clicking on the "continue" button will result in the following.
   
 
   
   Output
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/3.View%20All%20Result.PNG)
+  
 
 * **Find a Platform present in the database by mentioning Id in the form.**
 
   Input
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/4.View%20By%20Id%20Click.PNG)
+  
  
   The platform details of specified unique Id is displayed as a response.
   
@@ -62,9 +64,10 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/5.View%20By%20Id%20Result.PNG)
   
+  
  * **Returns an error as response if platform with given id is not present in list.**
  
-  The Id which is not present in the database is being provided.The Error will be shown as "Requested Resource Not Found" using  c customised error.html page.
+  The Id which is not present in the database is being provided.The Error will be shown as "Requested Resource Not Found" using   customised error.html page.
  
   Input
   
@@ -73,9 +76,10 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   Output
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/7.Invalid%20Id%20Response.PNG)
+  
 
   
-* **Find the list of required platforms by mentioning name in the form**
+* **Find the list of required platforms by mentioning name in the form.**
 
   Input
   
@@ -87,8 +91,9 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/9.View%20by%20name%20result.PNG)
   
+  
 
-* **Returns an error as response if platforms with given name is not present in database**
+* **Returns an error as response if platforms with given name is not present in database.**
 
   Input
  
@@ -98,6 +103,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   Output
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/11.Invalid%20name%20response.PNG)
+  
 
 
  
@@ -114,6 +120,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   On click of "see the list" button will redirect the server to "View All" page and all the available platforms are displayed.
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/13.Add%20New%20result.PNG)
+  
   
   
   The "Edit" and "Delete" buttons are shown in front of every platform object, where all the available platform list is displayed.
@@ -137,7 +144,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   
 
 
-* **Delete a platform **
+* **Delete a platform.**
   
   It will delete the platform object completely from the database.
   Clicking on "Delete" button will prompt for "Yes Delete" or "Cancel" the delete operation.
@@ -150,7 +157,7 @@ For this operation,click on button "View all platforms".It will prompt for "cont
   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/18.Delete%20Result.PNG)
   
-* **Platfrom objects stored in Mongo DataBase  **
+* **Platfrom objects stored in Mongo DataBase.**
   
  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/MongoDB.PNG)
