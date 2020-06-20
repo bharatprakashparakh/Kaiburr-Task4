@@ -32,88 +32,122 @@ The project is about creating Web Interface(UI) in Java using Spring MVC and Thy
 
 ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/1.Home%20Page.PNG)
 
-* **View all available platforms present in the database**
+* **View all available platforms present in the database.**
+
 For this operation,click on button "View all platforms".It will prompt for "continue" or "close" option.
 
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/2.View%20All%20Click.PNG)
 
   
-  Clicking on continue button will result in following.
+  Clicking on "continue" button will result in following.
+  
+  
+  **Click on Home button will redirect the server to HOME page.**
   
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/3.View%20All%20Result.PNG)
 
-* **Find a Platform by mentioning Id in the form.**
+* **Find a Platform present in the database by mentioning Id in the form.**
 
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/4.View%20By%20Id%20Click.PNG)
  
+  The platform details of specified unique Id is displayed as a response.
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/5.View%20By%20Id%20Result.PNG)
   
  * **Returns an error as response if platform with given id is not present in list.**
  
+  The Id which is not present in the database is being provided.The Error will be shown as "Requested Resource Not Found" using  c customised error.html page.
+ 
   Input
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/6.Invalid%20Id.PNG)
+  
+ ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/6.Invalid%20Id.PNG)
   
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/7.Invalid%20Id%20Response.PNG)
 
   
-* **Find a platform by mentioning name in the form**
+* **Find the list of required platforms by mentioning name in the form**
 
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/8.View%20By%20name.PNG)
   
   Get a list of Platform with mentioned name
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/9.View%20by%20name%20result.PNG)
   
 
-* **Returns an error as response if platform with given name is not present in database**
- Input
+* **Returns an error as response if platforms with given name is not present in database**
+  Input
+ 
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/10.Invalid%20name.PNG)
   
  
   Output
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/11.Invalid%20name%20response.PNG)
-  
+
+
  
-* **Add a platform with given details**
+* **Add a new platform object in the database with the given details.**
   
+  The Id, name, language, framework of the Platfrorm is provided in the form.
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/12.Add%20new.PNG)
   
   Output
+  
+  On click of "see the list" button will redirect the server to "View All" page and all the available platforms are displayed.
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/13.Add%20New%20result.PNG)
+  
+  
+  The "Edit" and "Delete" buttons are shown in front of every platform object, where all the available platform list is displayed.
   
 * **Update a platform with given details.**
   
-  Clicking on the "Edit" Button will prompt the current details of particular platform. 
+  It will update the platform object present in the database.
+  Clicking on the "Edit" Button will prompt the current details of particular platform.
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/14.Update.PNG)
   
   Fill the new details in the following form.
   Input
+  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/15.Update%20details.PNG)
   
    Output
+   
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/16.Updated%20result.PNG)
   
 
+
 * **Delete a platform **
   
+  It will delete the platform object completely from the database.
   Clicking on "Delete" button will prompt for "Yes Delete" or "Cancel" the delete operation.
+  
   Input
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/17.Delete.PNG)
   
   Output
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/18.Delete%20Result.PNG)
   
-* **Platfrom object stored in Mongo DataBase  **
+* **Platfrom objects stored in Mongo DataBase  **
   
  
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/MongoDB.PNG)
+  
 
 ## Built With
 
