@@ -47,47 +47,73 @@ For this operation,click on button "View all platforms".It will prompt for "cont
 * **Find a Platform by mentioning Id in the form.**
 
   Input
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20id%20ip.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/4.View%20By%20Id%20Click.PNG)
  
   Output
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20id%20op.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/5.View%20By%20Id%20Result.PNG)
   
  * **Returns an error as response if platform with given id is not present in list.**
  
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/Get%20by%20id%20error.PNG)
+  Input
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/6.Invalid%20Id.PNG)
   
-* **Find a platform by mentioning name in URL[GET Request]**
+  Output
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/7.Invalid%20Id%20Response.PNG)
 
-   Get a single platform as output . 
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20%20name.PNG)
+  
+* **Find a platform by mentioning name in the form**
+
+  Input
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/8.View%20By%20name.PNG)
   
   Get a list of Platform with mentioned name
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20%20name%20list.PNG)
+  Output
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/9.View%20by%20name%20result.PNG)
+  
 
-* **Returns an error as response if platform with given name is not present in list[GET Request]**
-
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20%20name%20error.PNG)
+* **Returns an error as response if platform with given name is not present in database**
+ Input
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/10.Invalid%20name.PNG)
+  
  
-* **Update a platform with given details [PUT]**
+  Output
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/11.Invalid%20name%20response.PNG)
+  
+ 
+* **Add a platform with given details**
   
   Input
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/update.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/12.Add%20new.PNG)
   
   Output
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/after%20update.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/13.Add%20New%20result.PNG)
   
-* **Delete a platform with given Id. [DELETE]**
+* **Update a platform with given details.**
   
+  Clicking on the "Edit" Button will prompt the current details of particular platform. 
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/14.Update.PNG)
+  
+  Fill the new details in the following form.
   Input
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/delete.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/15.Update%20details.PNG)
+  
+   Output
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/16.Updated%20result.PNG)
+  
+
+* **Delete a platform **
+  
+  Clicking on "Delete" button will prompt for "Yes Delete" or "Cancel" the delete operation.
+  Input
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/17.Delete.PNG)
   
   Output
-  ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/after%20delete.PNG)
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/18.Delete%20Result.PNG)
   
-  * **Collection in a Mongo Database**
-   
-     ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/mongod.PNG)
+* **Platfrom object stored in Mongo DataBase  **
   
+ 
+  ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/MongoDB.PNG)
 
 ## Built With
 
