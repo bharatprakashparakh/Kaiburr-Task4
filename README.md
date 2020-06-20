@@ -28,21 +28,23 @@ The project is about creating Web Interface(UI) in Java using Spring MVC and Thy
 
 ### Break down into end to end tests
 
-* **The first page dispalyed is index.html which is a HOME PAGE.The user can click on respective buttons to perform operations like CREATE,READ,READ By Id,READ By Name on various available Platforms.[HOME PAGE]**
+* **The first page dispalyed is index.html which is a HOME PAGE.The user can click on respective buttons to perform operations like CREATE, READ, READ By Id, READ By Name on various available Platforms. [HOME PAGE]**
 
 ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/1.Home%20Page.PNG)
 
 * **View all available platforms present in the database**
-For this operation,click on button "View all platforms".It will prompt for "continue" or "close" options.
+For this operation,click on button "View all platforms".It will prompt for "continue" or "close" option.
 
   Input
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/2.View%20All%20Click.PNG)
 
   
+  Clicking on continue button will result in following.
+  
   Output
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/3.View%20All%20Result.PNG)
 
-* **Find a Platform by mentioning Id in URL[GET Request]**
+* **Find a Platform by mentioning Id in the form.**
 
   Input
   ![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20by%20id%20ip.PNG)
