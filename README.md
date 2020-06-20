@@ -4,7 +4,7 @@ Task4 : Kaiburr Task4
 
 # Project Title
 
-The project is about creating Web Interface(UI) in Java using Spring MVC and Thymeleaf Template Engine.The web interface is provided to end-user for searching,creating ,deleting and updating “server” objects. The variety of Software Platforms are available as a resource on the server side.The frontend is created for a REST API and a client can request for a persistent resource by interacting with the layout.
+The project is about creating Web Interface(UI) in Java using Spring MVC and Thymeleaf Template Engine.The web interface is provided to end-user for searching,creating ,deleting and updating “server” objects(CRUD OPERATION). The variety of Software Platforms are available as a resource on the server side.The frontend is created for a REST API and a client can request for a persistent resource by interacting with the layout.
 
 ## Getting Started
 
