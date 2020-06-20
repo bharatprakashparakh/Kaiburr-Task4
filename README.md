@@ -4,32 +4,33 @@ Task4 : Kaiburr Task4
 
 # Project Title
 
-The project is about REST API implementation in Java using SpringBoot framework.The application provides a REST API with endpoints for searching,creating ,deleting and updating “server” objects. The variety of Software Platforms are available as a resource on the server side.The REST API are created and client can request for a resource over this URL. 
+The project is about creating Web Interface(UI) in Java using Spring MVC and Thymeleaf Template Engine.The web interface is provided to end-user for searching,creating ,deleting and updating “server” objects. The variety of Software Platforms are available as a resource on the server side.The frontend is created for a REST API and a client can request for a persistent resource by interacting with the layout.
 
 ## Getting Started
 
-1.git clone https://github.com/bharatprakashparakh/Kaiburr-Task1.git
+1.git clone https://github.com/bharatprakashparakh/Kaiburr-Task4.git
 
 ### Prerequisites
 
 * Downlaod Java version 1.8
 * Downlaod SpringToolSuite version 4.6.0
 * Downlaod Apache Tomcat Server 8.5 
-* Install Postman REST Client
+* Add Thymeleaf Dependency in SpringToolSutite
 * Downlaod Mongo Database 4.2.5
+* A Web Browser
 
 
 ## Running the tests
 
 * Run the mongod server at port 27017 using "mongod command"
-* Run the platform-api-data/src/main/java/io/glacier/PlatformApiDataApplication.java as JavaApplication.
-* Open Postman and send client request to REST API.
+* Run the thymeleaf-testing-upload/src/main/java/io/bucket/thymeleaftesting/ThymeleafTestingApplication.java as JavaApplication.
+* Open Web Browser and Hit URL localhost:8080
 
 ### Break down into end to end tests
 
-* **Find all platforms available.[GET Request]**
+* **The first page dispalyed is index.html which is a HOME PAGE and provides options for CREATE and READ Platforms.  **
 
-![](https://github.com/bharatprakashparakh/Kaiburr-Task1/blob/master/Images/Kaiburr%20Tasks/GET%20ALL%20ip.PNG)
+![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/1.Home%20Page.PNG)
 
 * **Create a platform by mentioning platform object details.[POST Reuest]**
 
