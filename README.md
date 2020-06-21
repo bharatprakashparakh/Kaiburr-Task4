@@ -28,7 +28,9 @@ The project is about creating Web Interface(UI) in Java using Spring MVC and Thy
 
 ### Break down into end to end tests
 
-* **The first page dispalyed is index.html which is a HOME PAGE.The user can click on respective buttons to perform operations like CREATE, READ, READ By Id, READ By Name on various available Platforms. [HOME PAGE]**
+* **The first page dispalyed is index.html which is a HOME PAGE.The user can click on respective buttons to perform operations like   CREATE, READ, READ By Id, READ By Name on various available Platforms. [HOME PAGE]**
+* **The Delete And Edit options will be available on page opened by clicking on "View All Platforms"**
+
 
 ![](https://github.com/bharatprakashparakh/Kaiburr-Task4/blob/master/Images/1.Home%20Page.PNG)
 
